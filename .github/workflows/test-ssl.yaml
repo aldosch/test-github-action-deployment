@@ -1,0 +1,10 @@
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Check SSL Version for Vercel API
+        run: |
+          openssl s_client -connect api.vercel.com:443 -servername api.vercel.com
