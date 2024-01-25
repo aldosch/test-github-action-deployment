@@ -1,3 +1,11 @@
+# Test Github Action Deployment
+
+Following this guide: [How can I use GitHub Actions with Vercel?](https://vercel.com/guides/how-can-i-use-github-actions-with-vercel)
+
+Particularly focusing on potential SSL connection issues. Trying to determine if there's a mismatch between TLS protocol versions.
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
